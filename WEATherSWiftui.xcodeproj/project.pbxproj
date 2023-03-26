@@ -14,6 +14,7 @@
 		40E1032129BE14D600883DE4 /* WEATherSWiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1032029BE14D600883DE4 /* WEATherSWiftuiTests.swift */; };
 		40E1032B29BE14D600883DE4 /* WEATherSWiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1032A29BE14D600883DE4 /* WEATherSWiftuiUITests.swift */; };
 		40E1032D29BE14D600883DE4 /* WEATherSWiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1032C29BE14D600883DE4 /* WEATherSWiftuiUITestsLaunchTests.swift */; };
+		40E35B9129D02CDC009E235D /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E35B9029D02CDC009E235D /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		40E1032629BE14D600883DE4 /* WEATherSWiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEATherSWiftuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E1032A29BE14D600883DE4 /* WEATherSWiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATherSWiftuiUITests.swift; sourceTree = "<group>"; };
 		40E1032C29BE14D600883DE4 /* WEATherSWiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATherSWiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40E35B9029D02CDC009E235D /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				40E1031129BE14D400883DE4 /* ContentView.swift */,
 				40E1031329BE14D600883DE4 /* Assets.xcassets */,
 				40E1031529BE14D600883DE4 /* Preview Content */,
+				40E35B9029D02CDC009E235D /* WeatherViewController.swift */,
 			);
 			path = WEATherSWiftui;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E1031229BE14D400883DE4 /* ContentView.swift in Sources */,
+				40E35B9129D02CDC009E235D /* WeatherViewController.swift in Sources */,
 				40E1031029BE14D400883DE4 /* WEATherSWiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
