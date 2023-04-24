@@ -37,7 +37,7 @@ struct ContentView: View {
                     weatherDay(dayOfWeek: "WED", imageName: "sun.max.fill", Temperature: 76)
                     weatherDay(dayOfWeek: "Tfree", imageName: "snow", Temperature: 76)
                     weatherDay(dayOfWeek: "TUEefe", imageName: "sun.max.fill", Temperature: 76)
-                    weatherDay(dayOfWeek: "TUE", imageName: "wind.snow", Temperature: 76)
+                    weatherDay(dayOfWeek: "TUEd", imageName: "wind.snow", Temperature: 76)
                     weatherDay(dayOfWeek: "TUEdfde", imageName: "cloud.sun.fill", Temperature: 76)
                  
                 }
