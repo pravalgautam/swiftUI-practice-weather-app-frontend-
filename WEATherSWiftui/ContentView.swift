@@ -34,11 +34,11 @@ struct ContentView: View {
                 .padding(.bottom,40)
                 
                 HStack(spacing: 10){
+                    weatherDay(dayOfWeek: "MON", imageName: "sun.max.fill", Temperature: 76)
+                    weatherDay(dayOfWeek: "TUE", imageName: "snow", Temperature: 76)
                     weatherDay(dayOfWeek: "WED", imageName: "sun.max.fill", Temperature: 76)
-                    weatherDay(dayOfWeek: "Tfree", imageName: "snow", Temperature: 76)
-                    weatherDay(dayOfWeek: "TUEefe", imageName: "sun.max.fill", Temperature: 76)
-                    weatherDay(dayOfWeek: "TUEd", imageName: "wind.snow", Temperature: 76)
-                    weatherDay(dayOfWeek: "TUEdfde", imageName: "cloud.sun.fill", Temperature: 76)
+                    weatherDay(dayOfWeek: "FRI", imageName: "wind.snow", Temperature: 76)
+                    weatherDay(dayOfWeek: "SAT", imageName: "cloud.sun.fill", Temperature: 76)
                  
                 }
                 Spacer()
